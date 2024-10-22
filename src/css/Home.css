@@ -1,0 +1,37 @@
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  
+  .welcome-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .welcome-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .welcome-text p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .welcome-text h1 {
+      font-size: 2rem;
+    }
+  
+    .welcome-text p {
+      font-size: 1rem;
+    }
+  }
+  

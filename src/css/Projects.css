@@ -1,0 +1,51 @@
+.projects {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: auto; 
+    transition: transform 0.3s ease; 
+  }
+  
+
+  .gallery-item:hover img {
+    transform: scale(1.05); 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .projects h2 {
+      font-size: 2rem; 
+    }
+  }
+  
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #888; 
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff6b6b;
+  }
+  
+  .slick-slide {
+    padding: 0 10px; 
+  }
+  
